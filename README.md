@@ -9,7 +9,7 @@ The project focuses on two main objectives:
 1. The restoration of 16x16 blind face images to 128x128, simulating scenarios with distant or challenging conditions.
 2. Reconstruction of standard 128x128 face images.
    
-The employed models adapt [Kim et al.'s]([https://website-name.com](https://arxiv.org/abs/1908.08239)) progressive 3-step architecture, initially designed for Face Super Resolution. The adaptation includes incorporating facial landmarks and introducing an encoder for 128x128 input image performance.
+The employed models adapt [Kim et al.'s](https://arxiv.org/abs/1908.08239) progressive 3-step architecture, initially designed for Face Super Resolution. The adaptation includes incorporating facial landmarks and introducing an encoder for 128x128 input image performance.
 
 Model training employs perceptual and attention on landmarks losses, dynamically weighted to achieve a balance between stability and emphasis on attention to facial details.
 
