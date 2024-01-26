@@ -15,9 +15,13 @@ Model training employs perceptual and attention on landmarks losses, dynamically
 
 The project's success is measured using a broad range of evaluation metrics, including PSNR, SSIM, MS-SIM, LPIPS, NIQE, and FID, to evaluate both image similarity and image realism. The overall batch metric results, shown in the table below, indicate that although the model was not always capable of increasing pixel-wise distances, it significantly improved the realism of deteriorated images.
 
-|                 | PSNR$\uparrow$ | SSIM$\uparrow$ | MS-SIM$\uparrow$ | LPIPS$\downarrow$ | NIQE$\downarrow$ | FID$\downarrow$ |
+|                 | PSNR $\uparrow$ | SSIM $\uparrow$ | MS-SIM $\uparrow$ | LPIPS $\downarrow$ | NIQE $\downarrow$ | FID $\downarrow$ |
 | --------------- | ---- | ---- | ------ | ----- | ---- | --- |
 | blind img 16x16 | 20.1 $\pm$ 0.2 | 0.59 $\pm$ 0.01 | 0.818 $\pm$ 0.002 | 0.468 $\pm$ 0.003 | 16.78 $\pm$ 0.05 | 240 $\pm$ 4 |
 | pred img 16x16 | 20.6 $\pm$ 0.3 | 0.65  $\pm$ 0.01 | 0.862  $\pm$ 0.004 | 0.295  $\pm$ 0.006 | 7.9  $\pm$ 0.3 | 40  $\pm$ 2 |
 | blind img 128x128 | 21.1 $\pm$ 0.7 | 0.57 $\pm$ 0.03 | 0.83 $\pm$ 0.02 | 0.52 $\pm$ 0.03 | 9.8 $\pm$ 0.5 | 151 $\pm$ 14 |
 | pred img 128x128 | 22.0 $\pm$ 0.4 | 0.65 $\pm$ 0.01 | 0.862 $\pm$ 0.009 | 0.31 $\pm$ 0.01 | 6.8 $\pm$ 0.2 | 35 $\pm$ 2 |
+
+The project was conducted as part of the exam of *Vision and Cognitive Systems* course of University of Padova, academic year 2023-2024. It was developed in January 2024 by the team composed by:
+* Golan Rodrigo
+* Zoppellari Elena
