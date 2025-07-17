@@ -25,6 +25,6 @@ The project's success is measured using a broad range of evaluation metrics, inc
 | blind img 128x128 | 21.1 $\pm$ 0.7 | 0.57 $\pm$ 0.03 | 0.83 $\pm$ 0.02 | 0.52 $\pm$ 0.03 | 9.8 $\pm$ 0.5 | 151 $\pm$ 14 |
 | pred img 128x128 | 22.0 $\pm$ 0.4 | 0.65 $\pm$ 0.01 | 0.862 $\pm$ 0.009 | 0.31 $\pm$ 0.01 | 6.8 $\pm$ 0.2 | 35 $\pm$ 2 |
 
-The project was conducted as part of the exam of *Vision and Cognitive Systems* course of University of Padova, academic year 2023-2024. It was developed in January 2024 by the team composed by:
+The project was conducted as part of the exam of *Vision and Cognitive Systems* course of University of Padova. It was developed by the team composed by:
 * Golan Rodrigo
 * Zoppellari Elena
